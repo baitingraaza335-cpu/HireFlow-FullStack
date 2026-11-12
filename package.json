@@ -1,0 +1,10 @@
+{
+  "name": "hireflow-fullstack",
+  "version": "3.0.0",
+  "private": true,
+  "description": "HireFlow recruitment SaaS demo with HTML, CSS, JavaScript, Node.js and Python",
+  "main": "server/index.js",
+  "scripts": {"start": "node server/index.js", "dev": "node --watch server/index.js", "check": "node --check server/index.js && node --check public/js/app.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"bcryptjs": "^2.4.3", "express": "^4.21.2", "jsonwebtoken": "^9.0.2"}
+}

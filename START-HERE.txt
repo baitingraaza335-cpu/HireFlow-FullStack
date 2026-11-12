@@ -1,0 +1,17 @@
+HIREFLOW — START HERE
+
+1) Extract the ZIP file.
+2) Open the HireFlow-FullStack folder in VS Code.
+3) Open Terminal > New Terminal.
+4) Run: npm install
+5) Run: npm start
+6) Open: http://localhost:3000
+7) Click Register and create an account. Use a valid email and a password with at least 8 characters.
+
+OPTIONAL PYTHON SERVICE
+Open a second terminal:
+cd python_service
+python -m pip install -r requirements.txt
+python -m uvicorn app:app --reload --port 8000
+
+NOTE: Keep the Node terminal running while you use the website. The Python service is optional. This is a learning/demo project using local JSON persistence, not production applicant storage.
